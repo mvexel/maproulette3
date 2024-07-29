@@ -101,15 +101,18 @@ export default defineMessages({
   },
   taskBundleCooperative: {
     id: "Errors.task.bundleCooperative",
-    defaultMessage: "The main task is Cooperative. All selected tasks must be Cooperative.",
+    defaultMessage:
+      "The main task is Cooperative. All selected tasks must be Cooperative.",
   },
   addCommentFailure: {
     id: "Errors.task.addCommentFailure",
-    defaultMessage: "Comment was unable to be saved. An empty string was most likely submitted.",
+    defaultMessage:
+      "Comment was unable to be saved. An empty string was most likely submitted.",
   },
   taskBundleNotCooperative: {
     id: "Errors.task.bundleNotCooperative",
-    defaultMessage: "The main task is not Cooperative. No selected tasks can be Cooperative.",
+    defaultMessage:
+      "The main task is not Cooperative. No selected tasks can be Cooperative.",
   },
   taskCooperativeFailure: {
     id: "Errors.task.cooperativeFailure",
@@ -117,11 +120,13 @@ export default defineMessages({
   },
   taskAlreadyBundled: {
     id: "Errors.task.taskAlreadyBundled",
-    defaultMessage: "Task{details} is already in a bundle and can't be put into another bundle. There might be other tasks you tried to bundle that aren't mentioned here, but the ID given is for the first task we noticed is already bundled.",
+    defaultMessage:
+      "Task{details} is already in a bundle and can't be put into another bundle. There might be other tasks you tried to bundle that aren't mentioned here, but the ID given is for the first task we noticed is already bundled.",
   },
   unableToBundleTasks: {
     id: "Errors.task.unableToBundleTasks",
-    defaultMessage: "The tasks with these IDs are locked by another user{details} and cannot be bundled.",
+    defaultMessage:
+      "The tasks with these IDs are locked by another user{details} and cannot be bundled.",
   },
   osmRequestTooLarge: {
     id: "Errors.osm.requestTooLarge",
@@ -198,11 +203,13 @@ export default defineMessages({
   },
   challengeSaveDetailsFailure: {
     id: "Errors.challengeSaveFailure.challengeSaveDetailsFailure",
-    defaultMessage: "Unable to save your changes. It is likely a duplicate challenge name.",
+    defaultMessage:
+      "Unable to save your changes. It is likely a duplicate challenge name.",
   },
   challengeSaveNameFailure: {
     id: "Errors.challengeSaveFailure.challengeSaveNameFailure",
-    defaultMessage: "The 'NAME OF YOUR CHALLENGE' field is required and must be more than 3 characters long.",
+    defaultMessage:
+      "The 'NAME OF YOUR CHALLENGE' field is required and must be more than 3 characters long.",
   },
   challengeSaveDescriptionFailure: {
     id: "Errors.challengeSaveFailure.challengeSaveDescriptionFailure",
@@ -210,7 +217,8 @@ export default defineMessages({
   },
   challengeSaveInstructionFailure: {
     id: "Errors.challengeSaveFailure.challengeSaveInstructionFailure",
-    defaultMessage: "The 'DETAILED INSTRUCTIONS FOR MAPPERS' field must have more than {minLength} characters.",
+    defaultMessage:
+      "The 'DETAILED INSTRUCTIONS FOR MAPPERS' field must have more than {minLength} characters.",
   },
   challengeSaveChangesetDescriptionFailure: {
     id: "Errors.challengeSaveFailure.challengeSaveChangesetDescriptionFailure",
@@ -218,7 +226,8 @@ export default defineMessages({
   },
   challengeSaveEditPolicyAgreementFailure: {
     id: "Errors.challengeSaveFailure.challengeSaveEditPolicyAgreementFailure",
-    defaultMessage: "You must check the box at the bottom of the page to indicate that you acknowledge OpenStreetMap's Automated Edits code of conduct."
+    defaultMessage:
+      "You must check the box at the bottom of the page to indicate that you acknowledge OpenStreetMap's Automated Edits code of conduct.",
   },
   challengeRebuildFailure: {
     id: "Errors.challenge.rebuildFailure",
@@ -294,7 +303,7 @@ export default defineMessages({
     id: "Errors.josm.noResponse",
     defaultMessage:
       "OSM remote control did not respond. Do you have JOSM " +
-      "running with Remote Control enabled?",
+      "running with Remote Control enabled? [Show me how](https://josm.openstreetmap.de/wiki/Help/Preferences/RemoteControl)",
   },
   josmMissingOSMIds: {
     id: "Errors.josm.missingFeatureIds",
